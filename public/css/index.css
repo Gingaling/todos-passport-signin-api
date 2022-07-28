@@ -4,6 +4,17 @@ body {
 	padding: 0;
 }
 
+section#currentDate {
+	/* display: inline-block; */
+}
+
+#doubleClick {
+	text-align: right;
+	color: gray;
+	padding: 5px 2px 2px 2px;
+	margin: 1rem 2px 0px 2px;
+}
+
 button {
 	margin: 0;
 	padding: 0;
@@ -22,15 +33,15 @@ button {
 
 body {
 	font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	line-height: 1.4em;
-	background: #f5f5f5;
+	line-height: 1.5em;
+	background: #e9c1c1;
 	color: #111111;
 	min-width: 230px;
 	max-width: 550px;
 	margin: 0 auto;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	font-weight: 300;
+	font-weight: 500;
 }
 
 .hidden {
@@ -41,14 +52,14 @@ body {
 	background: #fff;
 	margin: 130px 0 40px 0;
 	position: relative;
-	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2),
-	            0 25px 50px 0 rgba(0, 0, 0, 0.1);
+	box-shadow: 0 4px 6px 0 rgba(61, 5, 75, 0.2),
+	            0 25px 50px 0 rgba(60, 5, 79, 0.1);
 }
 
 .todoapp input::-webkit-input-placeholder {
 	font-style: italic;
 	font-weight: 400;
-	color: rgba(0, 0, 0, 0.4);
+	color: rgba(6, 83, 80, 0.4);
 }
 
 .todoapp input::-moz-placeholder {
@@ -262,6 +273,7 @@ body {
 }
 
 .footer {
+	background-color: rgb(237, 219, 195);
 	padding: 10px 15px;
 	height: 20px;
 	text-align: center;
@@ -290,7 +302,8 @@ body {
 }
 
 .todo-count strong {
-	font-weight: 300;
+	font-weight: 600;
+	font-size: larger;
 }
 
 .filters {

@@ -1,0 +1,10 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#5D062E",
+        "titleBar.activeBackground": "#820840",
+        "titleBar.activeForeground": "#FFFBFD"
+    },
+    "marquee.widgets.npm-stats.packageNames": [
+        "todos-express-starter"
+    ]
+}

@@ -10,7 +10,7 @@
 	font-size: 80px;
 	font-weight: 200;
 	text-align: center;
-	color: #b83f45;
+	color: #4e58ae;
 	-webkit-text-rendering: optimizeLegibility;
 	-moz-text-rendering: optimizeLegibility;
 	text-rendering: optimizeLegibility;
@@ -33,7 +33,7 @@
 	font-weight: 500;
 	color: white;
 	border-radius: 5px;
-	background: #d83f45;
+	background: #4a2eb6;
 }
 
 .todohome a.button {
